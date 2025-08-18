@@ -1,0 +1,21 @@
+C:\Windows
+C:\Windows\System32
+C:\Windows\SysWOW64
+C:\Windows\Temp
+C:\Program Files
+C:\Program Files (x86)
+C:\Users
+C:\Users\<username>\Desktop
+C:\Users\<username>\Documents
+C:\Users\<username>\Downloads
+C:\Users\<username>\Pictures
+C:\Users\<username>\AppData
+C:\Users\<username>\AppData\Local
+C:\Users\<username>\AppData\LocalLow
+C:\Users\<username>\AppData\Roaming
+C:\Users\Public
+C:\Users\Public\Documents
+C:\Users\Public\Downloads
+C:\Temp
+C:\Boot
+C:\Recovery
