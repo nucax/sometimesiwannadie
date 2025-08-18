@@ -1,4 +1,5 @@
 import os
+import ctypes
 
 prefix = "sometimesiwannadie"
 counter = 1
@@ -15,10 +16,12 @@ for folder in folders_to_rename:
     if os.path.exists(folder):
         for filename in os.listdir(folder):
             file_path = os.path.join(folder, filename)
-            
             if os.path.isfile(file_path):
                 ext = os.path.splitext(filename)[1]
                 new_name = f"{prefix}{counter}{ext}"
                 new_path = os.path.join(folder, new_name)
                 os.rename(file_path, new_path)
                 counter += 1
+
+wallpaper_path = os.path.join(script_folder, "cool.png")
+ctypes.windll.user32.SystemParametersInfoW(20, 0, wallpaper_path, 3)
