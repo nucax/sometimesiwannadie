@@ -23,5 +23,5 @@ for folder in folders_to_rename:
                 os.rename(file_path, new_path)
                 counter += 1
 
-wallpaper_path = os.path.join(script_folder, "cool.png")
+wallpaper_path = os.path.join(script_folder, "Screenshot_20250819_003046_CapCut.jpg")
 ctypes.windll.user32.SystemParametersInfoW(20, 0, wallpaper_path, 3)
